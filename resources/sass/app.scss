@@ -1,0 +1,115 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: .4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .popup{
+        z-index: 999;
+        padding: 5rem;
+        background-color: whitesmoke;
+        border: 2px solid grey;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+td, th{
+ vertical-align: middle !important;
+ background-color: white;
+ opacity: 0.9;
+}
+.background_img{
+position: relative;
+height: 100vh;
+width: 100vw;
+}
+.img_background{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+.title_home_admin{
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+.container_home{
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+}
+pb-4, .py-4{
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+label{
+    font-size: 18px;
+}
+.container_order{
+    overflow: auto;
+    background:rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+}
+.container_show_order{
+    overflow: auto;
+
+}
+.content_show_orders{
+    border-radius: 1rem;
+    background-color: white;
+    padding: 1rem;
+    color: black;
+}
+.form_container{
+    background:rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+@media (max-width: 400px) {
+    .bottoni {
+      flex-direction: column;
+    }
+  }
+.grassetto{
+    font-size: large;
+   font-weight: 900;
+}
+
+.badge{
+    padding: .5rem;
+    color: white;
+}
+
+.title-home{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+// @media only screen and (max-width: 768px) {
+//     .img-ridotta {
+//         display: none;
+//     }
+// }
+
